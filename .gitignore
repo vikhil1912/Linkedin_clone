@@ -12,6 +12,8 @@ dist
 dist-ssr
 *.local
 .env
+ssh
+ssh.pub
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
