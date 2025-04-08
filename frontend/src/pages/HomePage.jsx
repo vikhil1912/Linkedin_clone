@@ -7,7 +7,7 @@ import { User } from "lucide-react";
 import PostCreation from "../components/PostCreation.jsx";
 import { Users } from "lucide-react";
 import Post from "../components/Post.jsx";
-import RecommendedUser from "../components/recommendedUser.jsx";
+import RecommendedUser from "../components/RecommendedUser.jsx";
 
 const HomePage = () => {
   const queryClient = useQueryClient();
