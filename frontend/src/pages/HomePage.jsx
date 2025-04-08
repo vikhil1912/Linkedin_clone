@@ -38,7 +38,7 @@ const HomePage = () => {
   });
 
   return (
-    <div className="bg-gray-100 h-[727px] p-5 grid grid-cols-1 lg:grid-cols-4 gap-6">
+    <div className="bg-gray-100 min-h-screen p-5 grid grid-cols-1 lg:grid-cols-4 gap-6">
       <div className="hidden lg:block col-span-1">
         <Sidebar user={authUser} />
       </div>

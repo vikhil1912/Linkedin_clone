@@ -19,7 +19,7 @@ const Network = () => {
   });
 
   return (
-    <div className="grid bg-gray-100 h-[727px] p-10 grid-cols-1 lg:grid-cols-4 gap-6">
+    <div className="grid bg-gray-100 min-h-screen p-10 grid-cols-1 lg:grid-cols-4 gap-6">
       <div className="col-span-1 lg:col-span-1">
         <Sidebar user={authuser} />
       </div>
